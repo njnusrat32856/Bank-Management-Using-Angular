@@ -1,0 +1,46 @@
+<div class="account-view-container">
+  <h2 class="text-center">Account Details</h2>
+
+  <div *ngIf="account">
+    <h3>{{ account.userName }} </h3>
+    <p><strong>Account Number:</strong> {{ account.accountNumber }}</p>
+    <p><strong>Email:</strong> {{ account.email }}</p>
+    <p><strong>Address:</strong> {{ account.address }}</p>
+    <p><strong>Cell:</strong> {{ account.cell }}</p>
+    <p><strong>NID:</strong> {{ account.nid }}</p>
+    <p><strong>Account Type:</strong> {{ account.accountType }}</p>
+    <p><strong>Balance:</strong> {{ account.currentBalance | currency }} </p>
+    <p><strong>Status:</strong> {{ account.status ? 'Active' : 'Inactive' }}</p>
+    <button (click)="viewTransactions(account.accountNumber)">View Transactions</button>
+  </div>
+
+  <div *ngIf="!account">
+    <p>No account details available.</p>
+  </div>
+</div>
+
+
+
+<!-- <div class="account-list-container">
+  <h2>Account List</h2>
+  <div class="account-list">
+    <div class="account-card" *ngFor="let account of accounts">
+      <div class="account-header">
+        <h3>{{ account.firstName }} {{ account.lastName }}</h3>
+        <p>{{ account.accountNumber }}</p>
+      </div>
+      <div class="account-body">
+        <p><strong>Email:</strong> {{ account.email }}</p>
+        <p><strong>Address:</strong> {{ account.address }}</p>
+        <p><strong>Cell:</strong> {{ account.cell }}</p>
+        <p><strong>NID:</strong> {{ account.nid }}</p>
+        <p><strong>Account Type:</strong> {{ account.accountType }}</p>
+        <p><strong>Balance:</strong> {{ account.currentBalance | currency }}</p>
+        <p><strong>Created On:</strong> {{ account.creatingDate | date }}</p>
+        <p><strong>Status:</strong> {{ account.status ? 'Active' : 'Inactive' }}</p>
+        
+        <button (click)="viewTransactions(account.accountNumber)">View Transactions</button>
+      </div>
+    </div>
+  </div>
+</div> -->

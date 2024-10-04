@@ -1,0 +1,363 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Nusrat",
+      "lastName": "Jahan",
+      "gender": "Female",
+      "email": "nusrat@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "firstName": "Naomi",
+      "lastName": "Nisha",
+      "gender": "Female",
+      "email": "admin@gmail.com",
+      "password": "56789",
+      "role": "admin"
+    },
+    {
+      "id": "bf84",
+      "firstName": "Kamrul",
+      "lastName": "Islam",
+      "gender": "Male",
+      "email": "kamrul@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "7c7a",
+      "firstName": "Saiful",
+      "lastName": "Islam",
+      "gender": "Male",
+      "email": "saiful@gmail.com",
+      "password": "12345",
+      "role": "user"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "accountNumber": "9971002216",
+      "userName": "Nusrat Jahan",
+      "email": "nusrat@gmail.com",
+      "address": "Mirpur, Dhaka",
+      "cell": "1234555",
+      "nid": "432423",
+      "accountType": "Savings",
+      "currentBalance": 0,
+      "creatingDate": "2024-07-29",
+      "status": true,
+      "users": {
+        "id": "1",
+        "firstName": "Nusrat",
+        "lastName": "Jahan",
+        "gender": "Female",
+        "email": "nusrat@gmail.com",
+        "password": "12345",
+        "role": "user"
+      }
+    },
+    {
+      "id": "520a",
+      "accountNumber": "8522180383",
+      "userName": "Mostofa Rezvi",
+      "email": "rezvi@gmail.com",
+      "address": "Azimpur",
+      "cell": "01233124",
+      "nid": "124134",
+      "accountType": "Checking",
+      "currentBalance": 0,
+      "creatingDate": "2024-08-26T13:36:23.848Z",
+      "status": true,
+      "users": {}
+    },
+    {
+      "id": "6d33",
+      "accountNumber": "1381171703",
+      "userName": "Raju Ahmed",
+      "email": "raju@gmail.com",
+      "address": "Azimpur",
+      "cell": "01355454543",
+      "nid": "14323545545",
+      "accountType": "Current Account",
+      "currentBalance": 0,
+      "creatingDate": "2024-08-26T17:48:46.858Z",
+      "status": true,
+      "users": {}
+    },
+    {
+      "id": "fd9d",
+      "accountNumber": "8084621244",
+      "userName": "Md. Saiful Islam",
+      "email": "saiful@gmail.com",
+      "address": "mirpur",
+      "cell": "01355454543",
+      "nid": "14323545545",
+      "accountType": "Current Account",
+      "currentBalance": 0,
+      "creatingDate": "2024-08-27T16:25:24.213Z",
+      "status": true,
+      "users": {
+        "id": "7c7a",
+        "firstName": "Saiful",
+        "lastName": "Islam",
+        "gender": "Male",
+        "email": "saiful@gmail.com",
+        "password": "12345",
+        "role": "user"
+      }
+    },
+    {
+      "id": "68ae",
+      "accountNumber": "3128620115",
+      "userName": "Kamrul Islam",
+      "email": "kamrul@gmail.com",
+      "address": "Mirpur",
+      "cell": "0184723435",
+      "nid": "245354",
+      "accountType": "Student Account",
+      "currentBalance": 0,
+      "creatingDate": "2024-08-31T10:47:02.835Z",
+      "status": false,
+      "users": {
+        "id": "bf84",
+        "firstName": "Kamrul",
+        "lastName": "Islam",
+        "gender": "Male",
+        "email": "kamrul@gmail.com",
+        "password": "12345",
+        "role": "user"
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "tid": "tx123abc",
+      "accountNumber": "3227974707",
+      "type": "Deposit",
+      "amount": 500,
+      "date": "2024-08-26T10:15:30Z",
+      "description": "Initial deposit",
+      "id": "f19e"
+    },
+    {
+      "tid": "tx124abc",
+      "accountNumber": "3227974707",
+      "type": "Withdraw",
+      "amount": 100,
+      "date": "2024-08-27T09:30:00Z",
+      "description": "ATM withdrawal",
+      "id": "eee2"
+    },
+    {
+      "tid": "tx125abc",
+      "accountNumber": "3227974707",
+      "type": "Deposit",
+      "amount": 1000,
+      "date": "2024-08-28T14:45:00Z",
+      "description": "Salary deposit",
+      "id": "24e9"
+    },
+    {
+      "tid": "tx126abc",
+      "accountNumber": "3227974707",
+      "type": "Transfer",
+      "amount": 200,
+      "date": "2024-08-29T12:00:00Z",
+      "description": "Transfer to 997100221655",
+      "targetAccountNumber": "997100221655",
+      "id": "5fd5"
+    },
+    {
+      "id": "1360",
+      "tid": "9p81n3h21",
+      "accountNumber": "3227974707",
+      "type": "Deposit",
+      "amount": 10000,
+      "date": "2024-08-26T17:00:00.995Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "3cc2",
+      "tid": "tepi99b41",
+      "accountNumber": "3227974707",
+      "type": "Withdraw",
+      "amount": 500,
+      "date": "2024-08-26T17:03:15.215Z",
+      "description": "Withdraw"
+    },
+    {
+      "id": "17ed",
+      "tid": "jszt1skah",
+      "accountNumber": "1381171703",
+      "type": "Deposit",
+      "amount": 2000,
+      "date": "2024-08-27T12:43:39.909Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "1cf5",
+      "tid": "v36be07nd",
+      "accountNumber": "997100221655",
+      "type": "Withdraw",
+      "amount": 2000,
+      "date": "2024-08-27T12:45:07.693Z",
+      "description": "Withdraw"
+    },
+    {
+      "id": "21d7",
+      "accountNumber": "997100221",
+      "type": "Transfer",
+      "amount": 2000,
+      "date": "2024-08-27T18:37:43.733Z",
+      "description": "Transfer to 4234234325",
+      "targetAccountNumber": "4234234325"
+    },
+    {
+      "id": "30ad",
+      "tid": "3pfyn8",
+      "accountNumber": "3227974707",
+      "type": "Deposit",
+      "amount": 50000,
+      "date": "2024-08-27T18:53:43.754Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "5e3d",
+      "accountNumber": "4234234325",
+      "type": "Transfer",
+      "amount": 1000,
+      "date": "2024-08-27T19:12:18.922Z",
+      "description": "Transfer to 0234234325",
+      "targetAccountNumber": "0234234325"
+    },
+    {
+      "id": "313c",
+      "tid": "bwsdeq",
+      "accountNumber": "9971002216",
+      "type": "Deposit",
+      "amount": 50000,
+      "date": "2024-08-30T18:21:30.603Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "0cc9",
+      "tid": "7qvykt",
+      "accountNumber": "9971002216",
+      "type": "Withdraw",
+      "amount": 1000,
+      "date": "2024-08-30T18:21:43.172Z",
+      "description": "Withdraw"
+    },
+    {
+      "id": "50f0",
+      "tid": "118vjy",
+      "accountNumber": "9971002216",
+      "type": "Deposit",
+      "amount": 5000,
+      "date": "2024-08-31T08:20:44.738Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "d118",
+      "tid": "34snx3",
+      "accountNumber": "9971002216",
+      "type": "Withdraw",
+      "amount": 1000,
+      "date": "2024-08-31T08:24:19.569Z",
+      "description": "Withdraw"
+    },
+    {
+      "id": "6b70",
+      "accountNumber": "9971002216",
+      "type": "Transfer",
+      "amount": 1000,
+      "date": "2024-08-31T08:33:50.680Z",
+      "description": "Transfer to 3453465654",
+      "targetAccountNumber": "3453465654"
+    },
+    {
+      "id": "a52d",
+      "tid": "n8xitu",
+      "accountNumber": "3227974707",
+      "type": "Deposit",
+      "amount": 1000,
+      "date": "2024-09-02T09:55:07.085Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "c6d6",
+      "tid": "3p038x",
+      "accountNumber": "9971002216",
+      "type": "Deposit",
+      "amount": 1000,
+      "date": "2024-09-02T09:55:28.564Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "efc1",
+      "accountNumber": "9971002216",
+      "type": "Transfer",
+      "amount": 10000,
+      "date": "2024-09-02T09:56:38.982Z",
+      "description": "add",
+      "targetAccountNumber": "3453465654"
+    },
+    {
+      "id": "8535",
+      "tid": "c2u8c6",
+      "accountNumber": "9971002216",
+      "type": "Deposit",
+      "amount": 1000,
+      "date": "2024-09-02T10:33:08.698Z",
+      "description": "Deposit"
+    },
+    {
+      "id": "ea08",
+      "tid": "ok7z9r",
+      "accountNumber": "9971002216",
+      "type": "Withdraw",
+      "amount": 1000,
+      "date": "2024-09-02T10:33:57.858Z",
+      "description": "Withdraw"
+    },
+    {
+      "id": "e433",
+      "accountNumber": "9971002216",
+      "type": "Transfer",
+      "amount": 1000,
+      "date": "2024-09-02T10:34:02.890Z",
+      "description": "Transfer to 3453465654",
+      "targetAccountNumber": "3453465654"
+    }
+  ],
+  "loans": [
+    {
+      "id": "e4a6",
+      "accountNumber": "3227974707",
+      "loanAmount": 50000,
+      "interestRate": 4.5,
+      "durationInMonths": 60,
+      "startDate": "2020-08-26T17:03:15.215Z",
+      "endDate": "2028-09-01T00:00:00Z",
+      "monthlyPayment": 932.13,
+      "balanceRemaining": 45000,
+      "status": "Active"
+    },
+    {
+      "id": "5fdf",
+      "accountNumber": "1381171703",
+      "loanAmount": 20000,
+      "interestRate": 10,
+      "durationInMonths": 12,
+      "startDate": "2024-08-27T11:35:58.081Z",
+      "endDate": "2025-08-27T11:35:58.081Z",
+      "monthlyPayment": 166.66666666666666,
+      "balanceRemaining": 18000,
+      "status": "Pending"
+    }
+  ]
+}
