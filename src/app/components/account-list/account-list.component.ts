@@ -25,14 +25,14 @@ export class AccountListComponent implements OnInit {
   }
 
   loadAccounts(): void {
-    this.accountService.getAccounts().subscribe(
-      (data) => {
+    this.accountService.getAccounts().subscribe({
+      next: (data) => {
         this.accounts = data;
       },
-      (error) => {
+      error: (error) => {
         console.error('Failed to load accounts', error);
       }
-    );
+    });
   }
 
   

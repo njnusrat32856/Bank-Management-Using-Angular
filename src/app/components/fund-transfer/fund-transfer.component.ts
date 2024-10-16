@@ -69,29 +69,6 @@ export class FundTransferComponent implements OnInit {
   //   });
   // }
 
-  // sourceAccountNumber: string = '';
-  // targetAccountNumber: string = '';
-  // amount: number = 0;
-
-  // constructor(
-  //   private transactionService: TransactionService,
-  //   private router: Router
-  // ) {}
-
-  // onSubmit() {
-  //   if (this.sourceAccountNumber && this.targetAccountNumber && this.amount > 0) {
-  //     this.transactionService.transfer(this.sourceAccountNumber, this.targetAccountNumber, this.amount).subscribe(
-  //       (response) => {
-  //         alert('Transfer successful!');
-  //         this.router.navigate(['/transaction-history', this.sourceAccountNumber]);
-  //       },
-  //       (error) => {
-  //         alert('Failed to process transfer. Please try again.');
-  //       }
-  //     );
-  //   } else {
-  //     alert('Please enter valid account numbers and amount.');
-  //   }
-  // }
+  
 
 }

@@ -21,29 +21,29 @@ export class WithdrawComponent {
 
   onSubmit() {
     if (this.accountNumber && this.amount > 0) {
-      this.transactionService.withdraw(this.accountNumber, this.amount).subscribe(
-        () => {
+      this.transactionService.withdraw(this.accountNumber, this.amount).subscribe({
+        next: () => {
           alert('Withdrawal successful!');
           this.loadTransactionHistory();
         },
-        (error) => {
+        error: (error) => {
           alert('Failed to process withdrawal. Please try again.');
         }
-      );
+      });
     } else {
       alert('Please enter a valid account number and amount.');
     }
   }
 
   loadTransactionHistory(): void {
-    this.transactionService.getTransactionHistory(this.accountNumber).subscribe(
-      (data) => {
+    this.transactionService.getTransactionHistory(this.accountNumber).subscribe({
+      next: (data) => {
         this.transactions = data;
       },
-      (error) => {
+      error: (error) => {
         alert('Failed to load transaction history.');
       }
-    );
+    });
   }
   
     // accountNumber: string = '';
