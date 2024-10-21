@@ -1,6 +1,17 @@
-# Angularbank
+# Bank Management Project-Angular
 
+Welcome to the Bank Management System project built in Angular using Json Server! This project is designed to provide a foundation for managing user banking operations using modern web technologies.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+
+## Introduction
+
+The Bank Management System is a web-based application developed using Angular that aims to streamline various banking operations. This system offers features to manage customer accounts and perform transactions.
+
+## Technologies Used
+
+- **Angular
+- **Json Server
+- **Bootstrap template
 
 ## Development server
 
