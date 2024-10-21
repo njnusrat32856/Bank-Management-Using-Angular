@@ -9,9 +9,9 @@ The Bank Management System is a web-based application developed using Angular th
 
 ## Technologies Used
 
-- **Angular
-- **Json Server
-- **Bootstrap template
+- Angular
+- Json Server
+- Bootstrap template
 
 ## Development server
 
