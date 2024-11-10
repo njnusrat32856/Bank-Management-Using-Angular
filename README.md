@@ -3,6 +3,13 @@
 Welcome to the Bank Management System project built in Angular using Json Server! This project is designed to provide a foundation for managing user banking operations using modern web technologies.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
+## Table of Contents
+- [Overview](#overview)
+- [Tools & Technologies Used](#tools-&-technologies-used)
+- [Key Features](#key-features)
+- [Installation & Setup](#installation-&-setup)
+- [Screenshots](#screenshots)
+
 ## Overview
 
 The Bank Management System is a web-based application designed to streamline and manage various banking operations efficiently. This project is developed using Angular, offering a modern and dynamic user experience with a focus on modular architecture and real-time data handling. The application includes features to manage customer accounts and perform financial transactions, enhancing user productivity and operational workflows.
@@ -43,41 +50,58 @@ To run this project locally, follow these steps:
 6. Open your browser and go to http://localhost:4200/ to view the application.
 
 ## Screenshots
-📌: Login:
+📌 Login:
 ![login](https://github.com/user-attachments/assets/1d1e6646-2a17-44d3-8fb4-4e3bf42ad550)
-📌: Register:
+
+📌 Register:
 ![register](https://github.com/user-attachments/assets/fc988aa5-9a14-4d70-99c4-9d94bbe6fd7d)
-📌: Account Details:
+
+📌 Account Details:
 ![account details](https://github.com/user-attachments/assets/ab42ad51-baf2-4a84-8f1b-8d05624b1786)
-📌: Admin Part- Account Approval:
+
+📌 Admin Part- Account Approval:
 ![admin account approved](https://github.com/user-attachments/assets/93aea8ab-5d98-4dfa-9832-c018ca7d2b79)
-📌: Admin Part- ALL Trasactions Details:
+
+📌 Admin Part- ALL Trasactions Details:
 ![admin all transaction details](https://github.com/user-attachments/assets/d5f7439b-a46d-4a20-a2d8-73ce6b8d0d4d)
-📌: Admin Part- Account Lists:
+
+📌 Admin Part- Account Lists:
 ![admin part account-list](https://github.com/user-attachments/assets/c991e6c9-e393-491f-8c5b-406e970ffc39)
-📌: Admin Profile:
+
+📌 Admin Profile:
 ![admin profile](https://github.com/user-attachments/assets/bd50ccb7-687c-49b6-b1f4-b6b3dfb3c042)
-📌: Open Acoount:
+
+📌 Open Acoount:
 ![new account](https://github.com/user-attachments/assets/85cefe3c-b106-47b3-882e-3dca5a60d0b9)
-📌: Deposit Form:
+
+📌 Deposit Form:
 ![deposit](https://github.com/user-attachments/assets/1841ecb6-2f77-4245-9e12-a842fbd720ae)
-📌: Withdraw Form:
+
+📌 Withdraw Form:
 ![withdraw money](https://github.com/user-attachments/assets/62a79c0c-14ae-4f26-aaa0-cdb1ab55feaa)
-📌: Fund Transfer Form:
+
+📌 Fund Transfer Form:
 ![fund transfer](https://github.com/user-attachments/assets/f6ebaaae-71f2-4418-bba3-95c83f4ac43b)
-📌: Statement:
+
+📌 Statement:
 ![statement](https://github.com/user-attachments/assets/fb646df2-ab8b-4a15-b9a4-1adf0f351330)
-📌: Loan Application:
+
+📌 Loan Application:
 ![apply for loan](https://github.com/user-attachments/assets/37c43baa-e52f-4897-9353-d0c454c251e7)
-📌: Loan List:
+
+📌 Loan List:
 ![loan list](https://github.com/user-attachments/assets/1df28c67-e508-4ea5-a4e8-7197c3e602fb)
-📌: Loan Details:
+
+📌 Loan Details:
 ![loan details](https://github.com/user-attachments/assets/70d1c2f4-7ebe-47b9-ba9a-071e54623247)
-📌: Loan Payment:
+
+📌 Loan Payment:
 ![loan payment](https://github.com/user-attachments/assets/337c7d30-e170-4383-99b1-03c3f793ad91)
-📌: User Profile:
+
+📌 User Profile:
 ![profile](https://github.com/user-attachments/assets/cea949bc-8550-464c-bb53-af178d5fad72)
-📌: Contact:
+
+📌 Contact:
 ![contact](https://github.com/user-attachments/assets/796ffe3e-b0bc-4c40-b02d-012b5b4331e1)
 
 ## Development server
